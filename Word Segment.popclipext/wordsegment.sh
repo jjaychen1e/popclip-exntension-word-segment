@@ -1,0 +1,1 @@
+echo -n | python ./word_segment.py "$POPCLIP_TEXT"
