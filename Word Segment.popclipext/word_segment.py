@@ -11,4 +11,4 @@ for w in words:
         res[-1] += w
     else:
         res.append(" ".join(segment(w)))
-print(" ".join(res))
+print(" ".join(res), end="")
