@@ -1,4 +1,3 @@
-from unittest import skip
 from wordsegment import load, segment
 import re
 import sys
