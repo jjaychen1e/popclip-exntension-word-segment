@@ -57,7 +57,7 @@ def process(words: List[str]) -> List[str]:
 words = sys.argv[1]
 load()
 words = split_words(words)
-print(words)
+# print(words)
 res = process(words)
 
 print(join_words(res), end="")
